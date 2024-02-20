@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .input-field {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+  }
+  .login-button {
+    background-image: linear-gradient(to right, #6f00ff, #d5198d);
+    color: white;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  .paper {
+    display: flex;
+    background-color: #f0f0f0;
+    border-radius:16px;
+    height: auto;
+     width: 60vh;
+    box-shadow: 0 2px 4px rgba(108, 25, 78, 0.1);
+    align-items: center;
+justify-content: center;
+    padding: 20px;
+  }
+  .gradient-text {
+    background-image: linear-gradient(to right, #6f00ff, #d5198d); /* Example gradient colors */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 22px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+   align-items: center;
+  }
+  
+  input, button {
+    margin-bottom: 10px;
+  }
+  
+  .social-login {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
